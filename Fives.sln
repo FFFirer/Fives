@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fives.Client", "Fives.Client\Fives.Client.csproj", "{EA7C29AF-C51E-4282-8C28-398980D02F6B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC072C19-2CE7-4D20-891C-8302C753EA30} = {BC072C19-2CE7-4D20-891C-8302C753EA30}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fives.Server", "Fives.Server\Fives.Server.csproj", "{BC072C19-2CE7-4D20-891C-8302C753EA30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA7C29AF-C51E-4282-8C28-398980D02F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7C29AF-C51E-4282-8C28-398980D02F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7C29AF-C51E-4282-8C28-398980D02F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7C29AF-C51E-4282-8C28-398980D02F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC072C19-2CE7-4D20-891C-8302C753EA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC072C19-2CE7-4D20-891C-8302C753EA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC072C19-2CE7-4D20-891C-8302C753EA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC072C19-2CE7-4D20-891C-8302C753EA30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {859EE5C1-DE2D-41A6-923B-7D48712F0E57}
+	EndGlobalSection
+EndGlobal
